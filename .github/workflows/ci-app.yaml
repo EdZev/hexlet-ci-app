@@ -1,4 +1,4 @@
-name: si-app
+name: CI-APP
 on: push
 jobs:
   build:
