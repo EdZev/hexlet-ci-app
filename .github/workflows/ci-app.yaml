@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
       - run: make install
       - run: make lint
       - name: run tests
